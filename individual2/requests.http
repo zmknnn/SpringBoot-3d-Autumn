@@ -1,0 +1,41 @@
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Song of Achilles",
+  "year": 2011,
+  "genre": "Historical Fiction",
+  "author": "Madeline Miller"
+}
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+"title": "Red, White & Royal Blue",
+"year": 2019,
+"genre": "Romance",
+"author": "Casey McQuiston"
+}
+
+###
+GET http://localhost:8080/api/v1/books
+
+###
+GET http://localhost:8080/api/v1/books/1
+
+###
+PUT http://localhost:8080/api/v1/books/1
+Content-Type: application/json
+
+{
+  "title": "Hell Followed with Us — Updated",
+  "year": 2022,
+  "genre": "Horror",
+  "author": "Andrew Joseph White"
+}
+
+###
+DELETE http://localhost:8080/api/v1/books/1
