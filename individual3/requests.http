@@ -1,0 +1,61 @@
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "isbn": "978-1234567890",
+  "title": "The Song of Achilles",
+  "year": 2011,
+  "genre": "Historical Fiction",
+  "author": "Madeline Miller"
+}
+
+###
+
+GET http://localhost:8080/api/v1/books
+
+###
+
+GET http://localhost:8080/api/v1/books/1
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "isbn": "978-1234567890",
+  "title": "Red, White & Royal Blue",
+  "year": 2019,
+  "genre": "Romance",
+  "author": "Casey McQuiston"
+}
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Test Book",
+  "year": 2020,
+  "genre": "Fantasy",
+  "author": "Test Author"
+}
+
+###
+
+PATCH http://localhost:8080/api/v1/books/1/status
+Content-Type: application/json
+
+{
+  "status": "RESERVED"
+}
+
+###
+
+PATCH http://localhost:8080/api/v1/books/1/status
+Content-Type: application/json
+
+{
+  "status": "BORROWED"
+}
