@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: individual5
+
+  datasource:
+    url: jdbc:h2:mem:individual5;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+logging:
+  pattern:
+    console: "[%X{traceId}] %d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
