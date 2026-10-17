@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="uk" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Додавання книги</title>
+</head>
+<body>
+
+<h1>Додати книгу</h1>
+
+<form th:action="@{/books}" th:object="${bookRequest}" method="post">
+
+    <p>
+        <label for="title">Назва книги:</label>
+        <input id="title" type="text" th:field="*{title}">
+        <br>
+        <span th:if="${#fields.hasErrors('title')}"
+              th:errors="*{title}"></span>
+    </p>
+
+    <p>
+        <label for="author">Автор:</label>
+        <input id="author" type="text" th:field="*{author}">
+        <br>
+        <span th:if="${#fields.hasErrors('author')}"
+              th:errors="*{author}"></span>
+    </p>
+
+    <p>
+        <label for="genre">Жанр:</label>
+        <input id="genre" type="text" th:field="*{genre}">
+        <br>
+        <span th:if="${#fields.hasErrors('genre')}"
+              th:errors="*{genre}"></span>
+    </p>
+
+    <p>
+        <label for="year">Рік видання:</label>
+        <input id="year" type="number" th:field="*{year}">
+        <br>
+        <span th:if="${#fields.hasErrors('year')}"
+              th:errors="*{year}"></span>
+    </p>
+
+    <button type="submit">Зберегти книгу</button>
+</form>
+
+<p><a th:href="@{/books}">Повернутися до списку</a></p>
+
+</body>
+</html>
