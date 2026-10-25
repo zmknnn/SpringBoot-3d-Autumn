@@ -1,0 +1,115 @@
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "isbn": "978-1234567890",
+  "title": "The Song of Achilles",
+  "year": 2011,
+  "genre": "Historical Fiction",
+  "author": "Madeline Miller"
+}
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+"isbn": "978-1234567834",
+"title": "The Song of Achilles - update",
+"year": 2011,
+"genre": "Historical Fiction",
+"author": "Madeline Miller"
+}
+
+###
+
+GET http://localhost:8080/api/v1/books
+
+###
+
+GET http://localhost:8080/api/v1/books/1
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "isbn": "978-1234567890",
+  "title": "Red, White & Royal Blue",
+  "year": 2019,
+  "genre": "Romance",
+  "author": "Casey McQuiston"
+}
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Test Book",
+  "year": 2020,
+  "genre": "Fantasy",
+  "author": "Test Author"
+}
+
+###
+GET http://localhost:8080/api/v1/books/search?title=Song
+Accept: application/json
+
+###
+GET http://localhost:8080/api/v1/books/1
+Accept: application/json
+
+### Оновити книгу
+PUT http://localhost:8080/api/v1/books/1
+Content-Type: application/json
+
+{
+  "isbn": "978-1234567890",
+  "title": "The Song of Achilles Updated",
+  "author": "Madeline Miller",
+  "genre": "Historical Fiction",
+  "year": 2012,
+  "status": "AVAILABLE"
+}
+
+### Видалити книгу
+DELETE http://localhost:8080/api/v1/books/2
+
+###
+
+GET http://localhost:8080/api/v1/books/2
+
+###
+
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "isbn": "978-1111111111",
+  "title": "",
+  "author": "Test Author",
+  "genre": "Fantasy",
+  "year": 2020,
+  "status": "AVAILABLE"
+}
+###
+
+PATCH http://localhost:8080/api/v1/books/1/status
+Content-Type: application/json
+
+{
+  "status": "RESERVED"
+}
+
+###
+
+PATCH http://localhost:8080/api/v1/books/1/status
+Content-Type: application/json
+
+{
+  "status": "BORROWED"
+}
