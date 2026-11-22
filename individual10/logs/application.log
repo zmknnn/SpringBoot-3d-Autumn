@@ -1,0 +1,46 @@
+2026-11-22T20:05:45.418+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : Starting Individual10Application using Java 25.0.4.1 with PID 21760 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual10\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual10)
+2026-11-22T20:05:45.422+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T20:05:46.137+02:00  INFO 21760 --- [individual10] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T20:05:46.346+02:00  INFO 21760 --- [individual10] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interface.
+2026-11-22T20:05:46.991+02:00  INFO 21760 --- [individual10] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T20:05:47.005+02:00  INFO 21760 --- [individual10] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T20:05:47.005+02:00  INFO 21760 --- [individual10] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T20:05:47.060+02:00  INFO 21760 --- [individual10] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1587 ms
+2026-11-22T20:05:47.168+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T20:05:47.362+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual10 user=SA
+2026-11-22T20:05:47.363+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T20:05:47.475+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T20:05:47.550+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T20:05:48.015+02:00  INFO 21760 --- [individual10] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T20:05:48.096+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual10]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL10/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T20:05:48.974+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T20:05:49.004+02:00  INFO 21760 --- [individual10] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T20:05:49.089+02:00  INFO 21760 --- [individual10] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T20:05:49.320+02:00  WARN 21760 --- [individual10] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T20:05:49.651+02:00  INFO 21760 --- [individual10] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual10'
+2026-11-22T20:05:49.762+02:00  INFO 21760 --- [individual10] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@475a8415
+2026-11-22T20:05:49.822+02:00  INFO 21760 --- [individual10] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-22T20:05:49.827+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : Started Individual10Application in 5.102 seconds (process running for 6.196)
+2026-11-22T20:08:02.848+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22T20:08:02.849+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-22T20:08:02.850+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-22T20:08:02.881+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Час виконання: 176 ms
+2026-11-22T20:13:45.225+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Час виконання: 2 ms
+0
