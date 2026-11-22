@@ -43,4 +43,8 @@
 2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
 2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
 2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Час виконання: 2 ms
-0
+02026-11-22T20:20:07.245+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22T20:20:07.249+02:00  INFO 21760 --- [individual10] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-22T20:20:07.253+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T20:20:07.256+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T20:20:07.257+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

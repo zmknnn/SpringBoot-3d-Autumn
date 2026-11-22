@@ -1,0 +1,245 @@
+2026-11-22T20:05:45.418+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : Starting Individual10Application using Java 25.0.4.1 with PID 21760 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual10\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual10)
+2026-11-22T20:05:45.422+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T20:05:46.137+02:00  INFO 21760 --- [individual10] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T20:05:46.346+02:00  INFO 21760 --- [individual10] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interface.
+2026-11-22T20:05:46.991+02:00  INFO 21760 --- [individual10] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T20:05:47.005+02:00  INFO 21760 --- [individual10] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T20:05:47.005+02:00  INFO 21760 --- [individual10] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T20:05:47.060+02:00  INFO 21760 --- [individual10] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1587 ms
+2026-11-22T20:05:47.168+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T20:05:47.362+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual10 user=SA
+2026-11-22T20:05:47.363+02:00  INFO 21760 --- [individual10] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T20:05:47.475+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T20:05:47.550+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T20:05:48.015+02:00  INFO 21760 --- [individual10] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T20:05:48.096+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual10]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL10/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T20:05:48.974+02:00  INFO 21760 --- [individual10] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T20:05:49.004+02:00  INFO 21760 --- [individual10] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T20:05:49.089+02:00  INFO 21760 --- [individual10] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T20:05:49.320+02:00  WARN 21760 --- [individual10] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T20:05:49.651+02:00  INFO 21760 --- [individual10] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual10'
+2026-11-22T20:05:49.762+02:00  INFO 21760 --- [individual10] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@475a8415
+2026-11-22T20:05:49.822+02:00  INFO 21760 --- [individual10] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-22T20:05:49.827+02:00  INFO 21760 --- [individual10] [main] o.e.i.Individual10Application            : Started Individual10Application in 5.102 seconds (process running for 6.196)
+2026-11-22T20:08:02.848+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22T20:08:02.849+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-22T20:08:02.850+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-22T20:08:02.881+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-22T20:08:03.058+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-1] o.e.individual10.aspect.LoggingAspect    : Час виконання: 176 ms
+2026-11-22T20:13:45.225+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-22T20:13:45.227+02:00  INFO 21760 --- [individual10] [http-nio-8080-exec-2] o.e.individual10.aspect.LoggingAspect    : Час виконання: 2 ms
+02026-11-22T20:20:07.245+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22T20:20:07.249+02:00  INFO 21760 --- [individual10] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-22T20:20:07.253+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T20:20:07.256+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T20:20:07.257+02:00  INFO 21760 --- [individual10] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-22T21:24:40.931+02:00  INFO 18800 --- [individual11] [main] o.e.i.Individual11Application            : Starting Individual11Application using Java 25.0.4.1 with PID 18800 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11)
+2026-11-22T21:24:40.935+02:00  INFO 18800 --- [individual11] [main] o.e.i.Individual11Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T21:24:42.178+02:00  INFO 18800 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T21:24:42.402+02:00  INFO 18800 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 207 ms. Found 1 JPA repository interface.
+2026-11-22T21:24:43.402+02:00  INFO 18800 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T21:24:43.427+02:00  INFO 18800 --- [individual11] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T21:24:43.428+02:00  INFO 18800 --- [individual11] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T21:24:43.517+02:00  INFO 18800 --- [individual11] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2522 ms
+2026-11-22T21:24:43.775+02:00  INFO 18800 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T21:24:43.999+02:00  INFO 18800 --- [individual11] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual11 user=SA
+2026-11-22T21:24:44.000+02:00  INFO 18800 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T21:24:44.012+02:00  INFO 3532 --- [individual11] [main] o.e.i.Individual11Application            : Starting Individual11Application using Java 25.0.4.1 with PID 3532 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11)
+2026-11-22T21:24:44.016+02:00  INFO 3532 --- [individual11] [main] o.e.i.Individual11Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T21:24:44.136+02:00  INFO 18800 --- [individual11] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T21:24:44.230+02:00  INFO 18800 --- [individual11] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T21:24:44.743+02:00  INFO 18800 --- [individual11] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T21:24:44.827+02:00  INFO 3532 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T21:24:44.840+02:00  INFO 18800 --- [individual11] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual11]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL11/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T21:24:44.943+02:00  INFO 3532 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2026-11-22T21:24:45.629+02:00  INFO 3532 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T21:24:45.642+02:00  INFO 3532 --- [individual11] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T21:24:45.643+02:00  INFO 3532 --- [individual11] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T21:24:45.695+02:00  INFO 3532 --- [individual11] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1631 ms
+2026-11-22T21:24:45.813+02:00  INFO 18800 --- [individual11] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T21:24:45.850+02:00  INFO 18800 --- [individual11] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:24:45.894+02:00  INFO 3532 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T21:24:45.954+02:00  INFO 18800 --- [individual11] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T21:24:46.052+02:00  INFO 3532 --- [individual11] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual11 user=SA
+2026-11-22T21:24:46.053+02:00  INFO 3532 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T21:24:46.170+02:00  INFO 3532 --- [individual11] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T21:24:46.214+02:00  WARN 18800 --- [individual11] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T21:24:46.223+02:00  INFO 3532 --- [individual11] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T21:24:46.627+02:00  INFO 3532 --- [individual11] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T21:24:46.703+02:00  INFO 3532 --- [individual11] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual11]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL11/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T21:24:46.741+02:00  INFO 18800 --- [individual11] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual11'
+2026-11-22T21:24:46.844+02:00  INFO 18800 --- [individual11] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@1203c259
+2026-11-22T21:24:46.861+02:00  INFO 18800 --- [individual11] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-22T21:24:46.951+02:00  INFO 18800 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-22T21:24:46.960+02:00  INFO 18800 --- [individual11] [main] o.e.i.Individual11Application            : Started Individual11Application in 6.621 seconds (process running for 7.885)
+2026-11-22T21:24:47.461+02:00  INFO 3532 --- [individual11] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T21:24:47.497+02:00  INFO 3532 --- [individual11] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:24:47.594+02:00  INFO 18800 --- [individual11] [RMI TCP Connection(1)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22T21:24:47.595+02:00  INFO 18800 --- [individual11] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-22T21:24:47.597+02:00  INFO 18800 --- [individual11] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-22T21:24:47.612+02:00  INFO 3532 --- [individual11] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T21:24:47.868+02:00  WARN 3532 --- [individual11] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T21:24:48.350+02:00  INFO 3532 --- [individual11] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual11'
+2026-11-22T21:24:48.435+02:00  INFO 3532 --- [individual11] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@1bfa398e
+2026-11-22T21:24:48.451+02:00  INFO 3532 --- [individual11] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-22T21:24:48.508+02:00  WARN 3532 --- [individual11] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-11-22T21:24:48.511+02:00  INFO 3532 --- [individual11] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:24:48.514+02:00  INFO 3532 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T21:24:48.515+02:00  INFO 3532 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-22T21:24:48.527+02:00  INFO 3532 --- [individual11] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-22T21:24:48.538+02:00 ERROR 3532 --- [individual11] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-11-22T21:24:53.667+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-4] o.e.individual11.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByGenre(..)
+2026-11-22T21:24:53.812+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-4] o.e.individual11.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByGenre(..) завершився успішно
+2026-11-22T21:24:53.813+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-4] o.e.individual11.aspect.LoggingAspect    : Час виконання: 144 ms
+2026-11-22T21:25:23.302+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-3] o.e.individual11.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByGenre(..)
+2026-11-22T21:25:23.305+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-3] o.e.individual11.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByGenre(..) завершився успішно
+2026-11-22T21:25:23.306+02:00  INFO 18800 --- [individual11] [http-nio-8080-exec-3] o.e.individual11.aspect.LoggingAspect    : Час виконання: 3 ms
+2026-11-22T21:29:06.694+02:00  INFO 18800 --- [individual11] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22T21:29:06.698+02:00  INFO 18800 --- [individual11] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-22T21:29:06.703+02:00  INFO 18800 --- [individual11] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:29:06.706+02:00  INFO 18800 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T21:29:06.707+02:00  INFO 18800 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-22T21:29:17.619+02:00  INFO 5720 --- [individual11] [main] o.e.i.Individual11Application            : Starting Individual11Application using Java 25.0.4.1 with PID 5720 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11)
+2026-11-22T21:29:17.622+02:00  INFO 5720 --- [individual11] [main] o.e.i.Individual11Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T21:29:18.750+02:00  INFO 5720 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T21:29:18.955+02:00  INFO 5720 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interface.
+2026-11-22T21:29:19.762+02:00  INFO 5720 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T21:29:19.776+02:00  INFO 5720 --- [individual11] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T21:29:19.777+02:00  INFO 5720 --- [individual11] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T21:29:19.830+02:00  INFO 5720 --- [individual11] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2172 ms
+2026-11-22T21:29:20.015+02:00  INFO 5720 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T21:29:20.164+02:00  INFO 5720 --- [individual11] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual11 user=SA
+2026-11-22T21:29:20.166+02:00  INFO 5720 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T21:29:20.267+02:00  INFO 5720 --- [individual11] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T21:29:20.312+02:00  INFO 5720 --- [individual11] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T21:29:20.739+02:00  INFO 5720 --- [individual11] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T21:29:20.845+02:00  INFO 5720 --- [individual11] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual11]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL11/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T21:29:21.757+02:00  INFO 5720 --- [individual11] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T21:29:21.789+02:00  INFO 5720 --- [individual11] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:29:21.865+02:00  INFO 5720 --- [individual11] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T21:29:22.073+02:00  WARN 5720 --- [individual11] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T21:29:22.506+02:00  INFO 5720 --- [individual11] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual11'
+2026-11-22T21:29:22.623+02:00  INFO 5720 --- [individual11] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@340f4723
+2026-11-22T21:29:22.636+02:00  INFO 5720 --- [individual11] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-22T21:29:22.700+02:00  INFO 5720 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-22T21:29:22.707+02:00  INFO 5720 --- [individual11] [main] o.e.i.Individual11Application            : Started Individual11Application in 5.584 seconds (process running for 6.229)
+2026-11-22T21:29:23.057+02:00  INFO 5720 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22T21:29:23.057+02:00  INFO 5720 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-22T21:29:23.059+02:00  INFO 5720 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-22T21:29:27.179+02:00  INFO 5720 --- [individual11] [http-nio-8080-exec-2] o.e.individual11.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByGenre(..)
+2026-11-22T21:29:27.599+02:00  INFO 5720 --- [individual11] [http-nio-8080-exec-2] o.e.individual11.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByGenre(..) завершився успішно
+2026-11-22T21:29:27.599+02:00  INFO 5720 --- [individual11] [http-nio-8080-exec-2] o.e.individual11.aspect.LoggingAspect    : Час виконання: 419 ms
+2026-11-22T21:31:11.665+02:00  INFO 5720 --- [individual11] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22T21:31:11.670+02:00  INFO 5720 --- [individual11] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-22T21:31:11.679+02:00  INFO 5720 --- [individual11] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:31:11.682+02:00  INFO 5720 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T21:31:11.684+02:00  INFO 5720 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-22T21:31:28.499+02:00  INFO 13300 --- [individual11] [main] o.e.i.Individual11Application            : Starting Individual11Application using Java 25.0.4.1 with PID 13300 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual11)
+2026-11-22T21:31:28.502+02:00  INFO 13300 --- [individual11] [main] o.e.i.Individual11Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-22T21:31:29.206+02:00  INFO 13300 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-22T21:31:29.305+02:00  INFO 13300 --- [individual11] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2026-11-22T21:31:29.884+02:00  INFO 13300 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-22T21:31:29.895+02:00  INFO 13300 --- [individual11] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-22T21:31:29.896+02:00  INFO 13300 --- [individual11] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-22T21:31:29.946+02:00  INFO 13300 --- [individual11] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1408 ms
+2026-11-22T21:31:30.110+02:00  INFO 13300 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-22T21:31:30.255+02:00  INFO 13300 --- [individual11] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual11 user=SA
+2026-11-22T21:31:30.257+02:00  INFO 13300 --- [individual11] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-22T21:31:30.347+02:00  INFO 13300 --- [individual11] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-22T21:31:30.395+02:00  INFO 13300 --- [individual11] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-22T21:31:30.732+02:00  INFO 13300 --- [individual11] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-22T21:31:30.798+02:00  INFO 13300 --- [individual11] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual11]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL11/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-22T21:31:31.477+02:00  INFO 13300 --- [individual11] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-22T21:31:31.504+02:00  INFO 13300 --- [individual11] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:31:31.581+02:00  INFO 13300 --- [individual11] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-22T21:31:31.770+02:00  WARN 13300 --- [individual11] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-22T21:31:32.209+02:00  INFO 13300 --- [individual11] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual11'
+2026-11-22T21:31:32.298+02:00  INFO 13300 --- [individual11] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@1203c259
+2026-11-22T21:31:32.311+02:00  INFO 13300 --- [individual11] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-22T21:31:32.382+02:00  INFO 13300 --- [individual11] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-22T21:31:32.389+02:00  INFO 13300 --- [individual11] [main] o.e.i.Individual11Application            : Started Individual11Application in 4.313 seconds (process running for 4.909)
+2026-11-22T21:31:32.701+02:00  INFO 13300 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-22T21:31:32.701+02:00  INFO 13300 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-22T21:31:32.703+02:00  INFO 13300 --- [individual11] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-22T21:32:20.151+02:00  INFO 13300 --- [individual11] [http-nio-8080-exec-1] o.e.individual11.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByGenre(..)
+2026-11-22T21:32:20.256+02:00  INFO 13300 --- [individual11] [http-nio-8080-exec-1] o.e.individual11.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByGenre(..) завершився успішно
+2026-11-22T21:32:20.256+02:00  INFO 13300 --- [individual11] [http-nio-8080-exec-1] o.e.individual11.aspect.LoggingAspect    : Час виконання: 105 ms
+2026-11-22T21:48:37.589+02:00  INFO 13300 --- [individual11] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-22T21:48:37.595+02:00  INFO 13300 --- [individual11] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-22T21:48:37.601+02:00  INFO 13300 --- [individual11] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-22T21:48:37.607+02:00  INFO 13300 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-22T21:48:37.609+02:00  INFO 13300 --- [individual11] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
