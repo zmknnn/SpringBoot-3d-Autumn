@@ -1,0 +1,500 @@
+2026-11-23T22:42:33.707+02:00  INFO 22220 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 22220 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T22:42:33.714+02:00  INFO 22220 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T22:42:34.556+02:00  INFO 22220 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T22:42:34.741+02:00  INFO 22220 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
+2026-11-23T22:42:35.470+02:00  INFO 22220 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T22:42:35.485+02:00  INFO 22220 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T22:42:35.485+02:00  INFO 22220 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T22:42:35.544+02:00  INFO 22220 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1774 ms
+2026-11-23T22:42:35.739+02:00  INFO 22220 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T22:42:35.924+02:00  INFO 22220 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T22:42:35.925+02:00  INFO 22220 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T22:42:36.032+02:00  INFO 22220 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T22:42:36.116+02:00  INFO 22220 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T22:42:36.559+02:00  INFO 22220 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T22:42:36.643+02:00  INFO 22220 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T22:42:37.530+02:00  INFO 22220 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T22:42:37.568+02:00  INFO 22220 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:42:37.658+02:00  INFO 22220 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T22:42:37.924+02:00  WARN 22220 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T22:42:38.486+02:00  INFO 22220 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T22:42:38.608+02:00  INFO 22220 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@109db924
+2026-11-23T22:42:38.642+02:00  INFO 22220 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T22:42:38.748+02:00  INFO 22220 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T22:42:38.755+02:00  INFO 22220 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 5.767 seconds (process running for 6.715)
+2026-11-23T22:42:39.394+02:00  INFO 22220 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T22:42:39.395+02:00  INFO 22220 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T22:42:39.397+02:00  INFO 22220 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-23T22:42:53.737+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-23T22:42:53.758+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-1] o.e.i.service.BookServiceImpl            : Знайдено 0 книг
+2026-11-23T22:42:53.759+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-23T22:42:53.759+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 20 ms
+2026-11-23T22:43:04.228+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:43:04.245+02:00 ERROR 22220 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T22:43:05.099+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByGenre(..)
+2026-11-23T22:43:05.245+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByGenre(..) завершився успішно
+2026-11-23T22:43:05.246+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 145 ms
+2026-11-23T22:43:51.183+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:43:51.185+02:00 ERROR 22220 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T22:44:05.121+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:44:05.123+02:00 ERROR 22220 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T22:44:43.428+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T22:44:43.474+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T22:44:43.474+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Час виконання: 45 ms
+2026-11-23T22:44:46.542+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:44:46.546+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T22:44:46.546+02:00  INFO 22220 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Час виконання: 3 ms
+2026-11-23T22:44:53.049+02:00  INFO 22220 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T22:44:53.054+02:00  INFO 22220 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T22:44:53.061+02:00  INFO 22220 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:44:53.065+02:00  INFO 22220 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T22:44:53.066+02:00  INFO 22220 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T22:45:06.575+02:00  INFO 4876 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 4876 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T22:45:06.579+02:00  INFO 4876 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T22:45:07.433+02:00  INFO 4876 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T22:45:07.557+02:00  INFO 4876 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+2026-11-23T22:45:08.343+02:00  INFO 4876 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T22:45:08.356+02:00  INFO 4876 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T22:45:08.356+02:00  INFO 4876 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T22:45:08.402+02:00  INFO 4876 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1776 ms
+2026-11-23T22:45:08.632+02:00  INFO 4876 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T22:45:08.794+02:00  INFO 4876 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T22:45:08.796+02:00  INFO 4876 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T22:45:08.913+02:00  INFO 4876 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T22:45:08.973+02:00  INFO 4876 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T22:45:09.327+02:00  INFO 4876 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T22:45:09.409+02:00  INFO 4876 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T22:45:10.219+02:00  INFO 4876 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T22:45:10.244+02:00  INFO 4876 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:45:10.337+02:00  INFO 4876 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T22:45:10.580+02:00  WARN 4876 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T22:45:11.135+02:00  INFO 4876 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T22:45:11.242+02:00  INFO 4876 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@12d76643
+2026-11-23T22:45:11.263+02:00  INFO 4876 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T22:45:11.354+02:00  INFO 4876 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T22:45:11.362+02:00  INFO 4876 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 5.419 seconds (process running for 6.412)
+2026-11-23T22:45:11.783+02:00  INFO 4876 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T22:45:11.783+02:00  INFO 4876 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T22:45:11.785+02:00  INFO 4876 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-23T22:45:30.590+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T22:45:30.676+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T22:45:30.677+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Час виконання: 87 ms
+2026-11-23T22:45:58.003+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:45:58.015+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T22:45:58.015+02:00  INFO 4876 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 11 ms
+2026-11-23T22:47:19.876+02:00  INFO 4876 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T22:47:19.882+02:00  INFO 4876 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T22:47:19.887+02:00  INFO 4876 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:47:19.891+02:00  INFO 4876 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T22:47:19.892+02:00  INFO 4876 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T22:47:29.857+02:00  INFO 21024 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 21024 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T22:47:29.859+02:00  INFO 21024 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T22:47:30.652+02:00  INFO 21024 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T22:47:30.759+02:00  INFO 21024 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+2026-11-23T22:47:31.435+02:00  INFO 21024 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T22:47:31.447+02:00  INFO 21024 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T22:47:31.447+02:00  INFO 21024 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T22:47:31.495+02:00  INFO 21024 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1601 ms
+2026-11-23T22:47:31.708+02:00  INFO 21024 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T22:47:31.858+02:00  INFO 21024 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T22:47:31.860+02:00  INFO 21024 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T22:47:31.968+02:00  INFO 21024 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T22:47:32.017+02:00  INFO 21024 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T22:47:32.353+02:00  INFO 21024 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T22:47:32.425+02:00  INFO 21024 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T22:47:33.149+02:00  INFO 21024 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T22:47:33.177+02:00  INFO 21024 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:47:33.259+02:00  INFO 21024 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T22:47:33.502+02:00  WARN 21024 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T22:47:33.999+02:00  INFO 21024 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T22:47:34.097+02:00  INFO 21024 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@497f8a4b
+2026-11-23T22:47:34.115+02:00  INFO 21024 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T22:47:34.185+02:00  INFO 21024 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T22:47:34.193+02:00  INFO 21024 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 4.817 seconds (process running for 5.398)
+2026-11-23T22:47:34.528+02:00  INFO 21024 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T22:47:34.528+02:00  INFO 21024 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T22:47:34.532+02:00  INFO 21024 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-11-23T22:47:42.136+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T22:47:42.223+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T22:47:42.223+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 85 ms
+2026-11-23T22:47:45.904+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:47:45.920+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T22:47:45.920+02:00  INFO 21024 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 15 ms
+2026-11-23T22:53:56.480+02:00  INFO 21024 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T22:53:56.487+02:00  INFO 21024 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T22:53:56.494+02:00  INFO 21024 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:53:56.499+02:00  INFO 21024 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T22:53:56.500+02:00  INFO 21024 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T22:54:08.421+02:00  INFO 22952 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 22952 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T22:54:08.424+02:00  INFO 22952 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T22:54:09.535+02:00  INFO 22952 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T22:54:09.688+02:00  INFO 22952 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+2026-11-23T22:54:10.626+02:00  INFO 22952 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T22:54:10.641+02:00  INFO 22952 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T22:54:10.641+02:00  INFO 22952 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T22:54:10.708+02:00  INFO 22952 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2236 ms
+2026-11-23T22:54:11.007+02:00  INFO 22952 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T22:54:11.196+02:00  INFO 22952 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T22:54:11.199+02:00  INFO 22952 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T22:54:11.341+02:00  INFO 22952 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T22:54:11.601+02:00  INFO 22952 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T22:54:12.127+02:00  INFO 22952 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T22:54:12.227+02:00  INFO 22952 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T22:54:13.194+02:00  INFO 22952 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T22:54:13.231+02:00  INFO 22952 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T22:54:13.339+02:00  INFO 22952 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T22:54:13.655+02:00  WARN 22952 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T22:54:14.458+02:00  INFO 22952 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T22:54:14.644+02:00  INFO 22952 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@7405e77f
+2026-11-23T22:54:14.689+02:00  INFO 22952 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T22:54:14.852+02:00  INFO 22952 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T22:54:14.863+02:00  INFO 22952 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 7.003 seconds (process running for 7.843)
+2026-11-23T22:54:15.539+02:00  INFO 22952 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T22:54:15.539+02:00  INFO 22952 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T22:54:15.542+02:00  INFO 22952 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-23T22:55:31.983+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:55:32.005+02:00 ERROR 22952 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T22:55:49.463+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T22:55:49.610+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T22:55:49.610+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Час виконання: 146 ms
+2026-11-23T22:55:51.736+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T22:55:51.739+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T22:55:51.739+02:00  INFO 22952 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 3 ms
+2026-11-23T23:04:22.132+02:00  INFO 22952 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T23:04:22.137+02:00  INFO 22952 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T23:04:22.143+02:00  INFO 22952 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:04:22.146+02:00  INFO 22952 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T23:04:22.147+02:00  INFO 22952 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T23:04:29.735+02:00  INFO 18216 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 18216 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T23:04:29.738+02:00  INFO 18216 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T23:04:30.624+02:00  INFO 18216 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T23:04:30.795+02:00  INFO 18216 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 159 ms. Found 1 JPA repository interface.
+2026-11-23T23:04:31.601+02:00  INFO 18216 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T23:04:31.616+02:00  INFO 18216 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T23:04:31.616+02:00  INFO 18216 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T23:04:31.676+02:00  INFO 18216 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1900 ms
+2026-11-23T23:04:31.927+02:00  INFO 18216 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T23:04:32.094+02:00  INFO 18216 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T23:04:32.095+02:00  INFO 18216 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T23:04:32.226+02:00  INFO 18216 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T23:04:32.305+02:00  INFO 18216 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T23:04:32.761+02:00  INFO 18216 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T23:04:32.849+02:00  INFO 18216 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T23:04:33.702+02:00  INFO 18216 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T23:04:33.726+02:00 DEBUG 18216 --- [individual12] [main] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:04:33.736+02:00 DEBUG 18216 --- [individual12] [main] org.hibernate.SQL                        : create table books (publication_year integer, id bigint generated by default as identity, author varchar(255), genre varchar(255), isbn varchar(255) not null unique, title varchar(255) not null, status enum ('AVAILABLE','BORROWED','RESERVED'), primary key (id))
+2026-11-23T23:04:33.739+02:00  INFO 18216 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:04:33.816+02:00  INFO 18216 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T23:04:34.054+02:00  WARN 18216 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T23:04:34.551+02:00  INFO 18216 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T23:04:34.650+02:00  INFO 18216 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@3a89f2a0
+2026-11-23T23:04:34.675+02:00  INFO 18216 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T23:04:34.764+02:00  INFO 18216 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T23:04:34.771+02:00  INFO 18216 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 5.502 seconds (process running for 6.129)
+2026-11-23T23:04:35.388+02:00  INFO 18216 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T23:04:35.389+02:00  INFO 18216 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T23:04:35.392+02:00  INFO 18216 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-23T23:04:35.912+02:00 DEBUG 18216 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] org.hibernate.SQL                        : select count(*) from books b1_0
+2026-11-23T23:04:49.496+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T23:04:49.544+02:00 DEBUG 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:04:49.545+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:04:49.572+02:00 DEBUG 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : insert into books (author,genre,isbn,status,title,publication_year,id) values (?,?,?,?,?,?,default)
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Madeline Miller]
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Historical Fiction]
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [978-1234567890]
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (4:ENUM) <- [AVAILABLE]
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [The Song of Achilles]
+2026-11-23T23:04:49.574+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (6:INTEGER) <- [2011]
+2026-11-23T23:04:49.586+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T23:04:49.586+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 89 ms
+2026-11-23T23:04:54.649+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:04:54.657+02:00 DEBUG 18216 --- [individual12] [http-nio-8080-exec-3] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:04:54.658+02:00 TRACE 18216 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:04:54.662+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:04:54.662+02:00  INFO 18216 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 14 ms
+2026-11-23T23:06:07.543+02:00  INFO 18216 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T23:06:07.547+02:00  INFO 18216 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T23:06:07.552+02:00  INFO 18216 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:06:07.553+02:00 DEBUG 18216 --- [individual12] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:06:07.555+02:00  INFO 18216 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T23:06:07.557+02:00  INFO 18216 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T23:06:16.956+02:00  INFO 22284 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 22284 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T23:06:16.958+02:00  INFO 22284 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T23:06:17.752+02:00  INFO 22284 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T23:06:17.861+02:00  INFO 22284 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2026-11-23T23:06:18.540+02:00  INFO 22284 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T23:06:18.552+02:00  INFO 22284 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T23:06:18.552+02:00  INFO 22284 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T23:06:18.602+02:00  INFO 22284 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1608 ms
+2026-11-23T23:06:18.786+02:00  INFO 22284 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T23:06:18.942+02:00  INFO 22284 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T23:06:18.943+02:00  INFO 22284 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T23:06:19.062+02:00  INFO 22284 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T23:06:19.110+02:00  INFO 22284 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T23:06:19.470+02:00  INFO 22284 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T23:06:19.536+02:00  INFO 22284 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T23:06:20.281+02:00  INFO 22284 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T23:06:20.308+02:00 DEBUG 22284 --- [individual12] [main] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:06:20.318+02:00 DEBUG 22284 --- [individual12] [main] org.hibernate.SQL                        : create table books (publication_year integer, id bigint generated by default as identity, author varchar(255), genre varchar(255), isbn varchar(255) not null unique, title varchar(255) not null, status enum ('AVAILABLE','BORROWED','RESERVED'), primary key (id))
+2026-11-23T23:06:20.322+02:00  INFO 22284 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:06:20.420+02:00  INFO 22284 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T23:06:20.746+02:00  WARN 22284 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T23:06:21.338+02:00  INFO 22284 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T23:06:21.434+02:00  INFO 22284 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@3b26afbc
+2026-11-23T23:06:21.453+02:00  INFO 22284 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T23:06:21.534+02:00  INFO 22284 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T23:06:21.541+02:00  INFO 22284 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 5.017 seconds (process running for 5.619)
+2026-11-23T23:06:22.140+02:00  INFO 22284 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T23:06:22.141+02:00  INFO 22284 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T23:06:22.142+02:00  INFO 22284 --- [individual12] [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-23T23:06:22.396+02:00 DEBUG 22284 --- [individual12] [RMI TCP Connection(5)-192.168.0.102] org.hibernate.SQL                        : select count(*) from books b1_0
+2026-11-23T23:06:27.024+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T23:06:27.092+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:06:27.093+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:06:27.121+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : insert into books (author,genre,isbn,status,title,publication_year,id) values (?,?,?,?,?,?,default)
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Madeline Miller]
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Historical Fiction]
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [978-1234567890]
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (4:ENUM) <- [AVAILABLE]
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [The Song of Achilles]
+2026-11-23T23:06:27.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (6:INTEGER) <- [2011]
+2026-11-23T23:06:27.136+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T23:06:27.136+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 111 ms
+2026-11-23T23:06:34.729+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:06:34.736+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-6] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:06:34.737+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:06:34.740+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:06:34.740+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Час виконання: 9 ms
+2026-11-23T23:10:12.565+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-8] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.updateBook(..)
+2026-11-23T23:10:12.566+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:10:12.566+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:10:12.569+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:10:12.569+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:10:12.581+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.SQL                        : update books set author=?,genre=?,isbn=?,status=?,title=?,publication_year=? where id=?
+2026-11-23T23:10:12.584+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Madeline Miller]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Fantasy]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [978-1234567890]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (4:ENUM) <- [AVAILABLE]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [The Song of Achilles - Updated]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (6:INTEGER) <- [2011]
+2026-11-23T23:10:12.585+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [1]
+2026-11-23T23:10:12.587+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-8] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.updateBook(..) завершився успішно
+2026-11-23T23:10:12.588+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-8] o.e.individual12.aspect.LoggingAspect    : Час виконання: 21 ms
+2026-11-23T23:10:23.798+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:10:23.800+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-9] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:10:23.801+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:10:23.802+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:10:23.802+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Час виконання: 3 ms
+2026-11-23T23:10:48.118+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.updateBook(..)
+2026-11-23T23:10:48.119+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-4] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:10:48.120+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:10:48.122+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-4] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:10:48.123+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:10:48.125+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.updateBook(..) завершився успішно
+2026-11-23T23:10:48.125+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Час виконання: 6 ms
+2026-11-23T23:10:56.410+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:10:56.411+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:10:56.411+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:10:56.412+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:10:56.412+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 1 ms
+2026-11-23T23:15:26.379+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-23T23:15:26.399+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-10] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0
+2026-11-23T23:15:26.402+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-10] o.e.i.service.BookServiceImpl            : Знайдено 1 книг
+2026-11-23T23:15:26.403+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-23T23:15:26.403+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-10] o.e.individual12.aspect.LoggingAspect    : Час виконання: 23 ms
+2026-11-23T23:17:30.879+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.searchBooksByTitle(..)
+2026-11-23T23:17:30.910+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-7] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where upper(b1_0.title) like upper(?) escape '\'
+2026-11-23T23:17:30.911+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [%Achilles%]
+2026-11-23T23:17:30.914+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.searchBooksByTitle(..) завершився успішно
+2026-11-23T23:17:30.914+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Час виконання: 33 ms
+2026-11-23T23:18:36.200+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.deleteBook(..)
+2026-11-23T23:18:36.205+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select count(*) from books b1_0 where b1_0.id=?
+2026-11-23T23:18:36.205+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:18:36.214+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:18:36.214+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:18:36.220+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : delete from books where id=?
+2026-11-23T23:18:36.221+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:18:36.224+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.deleteBook(..) завершився успішно
+2026-11-23T23:18:36.225+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 24 ms
+2026-11-23T23:18:49.114+02:00  INFO 22284 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:18:49.115+02:00 DEBUG 22284 --- [individual12] [http-nio-8080-exec-6] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:18:49.115+02:00 TRACE 22284 --- [individual12] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:18:49.116+02:00 ERROR 22284 --- [individual12] [http-nio-8080-exec-6] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T23:25:35.312+02:00  INFO 22284 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T23:25:35.318+02:00  INFO 22284 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T23:25:35.327+02:00  INFO 22284 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:25:35.328+02:00 DEBUG 22284 --- [individual12] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:25:35.332+02:00  INFO 22284 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T23:25:35.333+02:00  INFO 22284 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T23:25:45.641+02:00  INFO 3968 --- [individual12] [main] o.e.i.Individual12Application            : Starting Individual12Application using Java 25.0.4.1 with PID 3968 (D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12\build\classes\java\main started by kotun in D:\Work\Nonna\univer\SpringBoot 3d autumn\individual12)
+2026-11-23T23:25:45.643+02:00  INFO 3968 --- [individual12] [main] o.e.i.Individual12Application            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T23:25:46.624+02:00  INFO 3968 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T23:25:46.756+02:00  INFO 3968 --- [individual12] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interface.
+2026-11-23T23:25:47.618+02:00  INFO 3968 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T23:25:47.636+02:00  INFO 3968 --- [individual12] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T23:25:47.637+02:00  INFO 3968 --- [individual12] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-23T23:25:47.705+02:00  INFO 3968 --- [individual12] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2018 ms
+2026-11-23T23:25:47.964+02:00  INFO 3968 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T23:25:48.165+02:00  INFO 3968 --- [individual12] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:individual12 user=SA
+2026-11-23T23:25:48.166+02:00  INFO 3968 --- [individual12] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T23:25:48.306+02:00  INFO 3968 --- [individual12] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T23:25:48.389+02:00  INFO 3968 --- [individual12] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-23T23:25:48.928+02:00  INFO 3968 --- [individual12] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T23:25:49.065+02:00  INFO 3968 --- [individual12] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:individual12]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: INDIVIDUAL12/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T23:25:50.162+02:00  INFO 3968 --- [individual12] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T23:25:50.192+02:00 DEBUG 3968 --- [individual12] [main] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:25:50.200+02:00 DEBUG 3968 --- [individual12] [main] org.hibernate.SQL                        : create table books (publication_year integer, id bigint generated by default as identity, author varchar(255), genre varchar(255), isbn varchar(255) not null unique, title varchar(255) not null, status enum ('AVAILABLE','BORROWED','RESERVED'), primary key (id))
+2026-11-23T23:25:50.205+02:00  INFO 3968 --- [individual12] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:25:50.331+02:00  INFO 3968 --- [individual12] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T23:25:50.640+02:00  WARN 3968 --- [individual12] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T23:25:51.288+02:00  INFO 3968 --- [individual12] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:individual12'
+2026-11-23T23:25:51.554+02:00  INFO 3968 --- [individual12] [main] o.s.c.f.web.mvc.FunctionHandlerMapping   : FunctionCatalog: org.springframework.cloud.function.context.catalog.BeanFactoryAwareFunctionRegistry@3b26afbc
+2026-11-23T23:25:51.572+02:00  INFO 3968 --- [individual12] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-11-23T23:25:51.707+02:00  INFO 3968 --- [individual12] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T23:25:51.720+02:00  INFO 3968 --- [individual12] [main] o.e.i.Individual12Application            : Started Individual12Application in 6.621 seconds (process running for 7.308)
+2026-11-23T23:25:52.242+02:00  INFO 3968 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T23:25:52.244+02:00  INFO 3968 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T23:25:52.247+02:00  INFO 3968 --- [individual12] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-23T23:25:53.129+02:00 DEBUG 3968 --- [individual12] [RMI TCP Connection(1)-192.168.0.102] org.hibernate.SQL                        : select count(*) from books b1_0
+2026-11-23T23:25:57.477+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.createBook(..)
+2026-11-23T23:25:57.533+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:25:57.535+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:25:57.567+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.SQL                        : insert into books (author,genre,isbn,status,title,publication_year,id) values (?,?,?,?,?,?,default)
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Madeline Miller]
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Historical Fiction]
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [978-1234567890]
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (4:ENUM) <- [AVAILABLE]
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [The Song of Achilles]
+2026-11-23T23:25:57.570+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (6:INTEGER) <- [2011]
+2026-11-23T23:25:57.584+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.createBook(..) завершився успішно
+2026-11-23T23:25:57.584+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 107 ms
+2026-11-23T23:26:07.539+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:26:07.545+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-1] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:26:07.546+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:26:07.548+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:26:07.549+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-1] o.e.individual12.aspect.LoggingAspect    : Час виконання: 9 ms
+2026-11-23T23:27:48.775+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getAllBooks()
+2026-11-23T23:27:48.784+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-4] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0
+2026-11-23T23:27:48.786+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-4] o.e.i.service.BookServiceImpl            : Знайдено 1 книг
+2026-11-23T23:27:48.787+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getAllBooks() завершився успішно
+2026-11-23T23:27:48.787+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-4] o.e.individual12.aspect.LoggingAspect    : Час виконання: 11 ms
+2026-11-23T23:30:05.297+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.updateBook(..)
+2026-11-23T23:30:05.297+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:30:05.298+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:30:05.300+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.isbn=?
+2026-11-23T23:30:05.301+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [978-1234567890]
+2026-11-23T23:30:05.314+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.SQL                        : update books set author=?,genre=?,isbn=?,status=?,title=?,publication_year=? where id=?
+2026-11-23T23:30:05.316+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Madeline Miller]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Fantasy]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [978-1234567890]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (4:ENUM) <- [AVAILABLE]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [The Song of Achilles - Updated]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (6:INTEGER) <- [2011]
+2026-11-23T23:30:05.317+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [1]
+2026-11-23T23:30:05.319+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.updateBook(..) завершився успішно
+2026-11-23T23:30:05.320+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-9] o.e.individual12.aspect.LoggingAspect    : Час виконання: 22 ms
+2026-11-23T23:31:14.518+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:31:14.519+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:31:14.520+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:31:14.521+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.getBookById(..) завершився успішно
+2026-11-23T23:31:14.521+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-3] o.e.individual12.aspect.LoggingAspect    : Час виконання: 2 ms
+2026-11-23T23:32:18.741+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.deleteBook(..)
+2026-11-23T23:32:18.746+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.SQL                        : select count(*) from books b1_0 where b1_0.id=?
+2026-11-23T23:32:18.746+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:32:18.750+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:32:18.750+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:32:18.756+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.SQL                        : delete from books where id=?
+2026-11-23T23:32:18.756+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:32:18.758+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Метод BookServiceImpl.deleteBook(..) завершився успішно
+2026-11-23T23:32:18.758+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-7] o.e.individual12.aspect.LoggingAspect    : Час виконання: 17 ms
+2026-11-23T23:33:14.849+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:33:14.851+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-2] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:33:14.851+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:33:14.853+02:00 ERROR 3968 --- [individual12] [http-nio-8080-exec-2] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T23:33:23.329+02:00  INFO 3968 --- [individual12] [http-nio-8080-exec-5] o.e.individual12.aspect.LoggingAspect    : Виклик методу: BookServiceImpl.getBookById(..)
+2026-11-23T23:33:23.330+02:00 DEBUG 3968 --- [individual12] [http-nio-8080-exec-5] org.hibernate.SQL                        : select b1_0.id,b1_0.author,b1_0.genre,b1_0.isbn,b1_0.status,b1_0.title,b1_0.publication_year from books b1_0 where b1_0.id=?
+2026-11-23T23:33:23.330+02:00 TRACE 3968 --- [individual12] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-11-23T23:33:23.331+02:00 ERROR 3968 --- [individual12] [http-nio-8080-exec-5] o.e.individual12.aspect.LoggingAspect    : Помилка під час виконання методу BookServiceImpl.getBookById(..): Book with id 1 not found
+2026-11-23T23:41:07.537+02:00  INFO 3968 --- [individual12] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T23:41:07.542+02:00  INFO 3968 --- [individual12] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T23:41:07.547+02:00  INFO 3968 --- [individual12] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T23:41:07.548+02:00 DEBUG 3968 --- [individual12] [SpringApplicationShutdownHook] org.hibernate.SQL                        : drop table if exists books cascade 
+2026-11-23T23:41:07.551+02:00  INFO 3968 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T23:41:07.552+02:00  INFO 3968 --- [individual12] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
